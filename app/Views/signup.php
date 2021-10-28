@@ -39,7 +39,7 @@
     
         <div class="container align-items-center row">
             <div class="float-start">
-                <a href="index.php"><p><i class="bi bi-chevron-compact-left"></i>Back</p></a>
+                <a href="<?= base_url() ?>/"><p><i class="bi bi-chevron-compact-left"></i>Back</p></a>
             </div>
             <div class="row">
                 <h1 class="title">Sign Up</h1>

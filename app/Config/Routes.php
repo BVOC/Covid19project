@@ -23,6 +23,7 @@ $routes->setTranslateURIDashes(false);
 $routes->set404Override();
 $routes->setAutoRoute(true);
 
+
 /*
  * --------------------------------------------------------------------
  * Route Definitions
@@ -33,6 +34,9 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 
+$routes->add('login', 'Home::loginRoute');
+$routes->add('signup', 'Home::signupRoute');
+$routes->add('dashboard', 'Home::dashboardRoute');
 /*
  * --------------------------------------------------------------------
  * Additional Routing
