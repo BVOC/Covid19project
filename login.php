@@ -39,7 +39,7 @@
         
         <div class="container align-items-center row">
             <div class="float-start">
-                <a href="index.html"><p><i class="bi bi-chevron-compact-left"></i>Back</p></a>
+                <a href="index.php"><p><i class="bi bi-chevron-compact-left"></i>Back</p></a>
             </div>
             <div class="row">
                 <h1 class="title">Log In</h1>
@@ -76,7 +76,7 @@
                         <br>
                     </div>
 
-                    <div class="row col-1 float-end"><a href="dashboard.html"><button onclick="logInFunction()" type="submit"
+                    <div class="row col-1 float-end"><a href="dashboard.php"><button onclick="logInFunction()" type="submit"
                             class="btn btn-primary">Log In</button></a></div>
                 </form>
             </div>

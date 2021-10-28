@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Log In | Covid-19</title>
+        <title>Sign Up | Covid-19</title>
         <link
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css"
             rel="stylesheet"
@@ -36,13 +36,13 @@
         </style>
     </head>
     <body>
-        
+    
         <div class="container align-items-center row">
             <div class="float-start">
-                <a href="index.html"><p><i class="bi bi-chevron-compact-left"></i>Back</p></a>
+                <a href="index.php"><p><i class="bi bi-chevron-compact-left"></i>Back</p></a>
             </div>
             <div class="row">
-                <h1 class="title">Log In</h1>
+                <h1 class="title">Sign Up</h1>
             </div>
 
             <div class="row">
@@ -57,6 +57,8 @@
                         <input type="email" class="form-control"
                             id="exampleInputEmail1" aria-describedby="emailHelp"
                             placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted" style="opacity: 0.5;">We'll
+                            never share your email with anyone else.</small>
                     </div>
 
                     <div class="row">
@@ -71,19 +73,28 @@
 
                     <div class="row">
                         <br>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="exampleInputPassword2">Confirm Password</label>
+                        <input type="password" class="form-control"
+                            id="exampleInputPassword1" placeholder=" Confirm Password">
+                    </div>
+
+                    <div class="row">
+                        <br>
                         <br>
                         <br>
                         <br>
                     </div>
 
-                    <div class="row col-1 float-end"><a href="dashboard.html"><button onclick="logInFunction()" type="submit"
-                            class="btn btn-primary">Log In</button></a></div>
+                    <div class="row col-1 float-end"><a href="dashboard.php"><button onclick="signUpFunction()" type="submit"
+                            class="btn btn-primary">Submit</button></a></div>
                 </form>
             </div>
         </div>
-
         <script>
-            function logInFunction() {
+            function signUpFunction() {
 
             }
         </script>
