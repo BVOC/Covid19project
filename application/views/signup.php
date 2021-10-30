@@ -12,7 +12,7 @@ Registration Page
 <br>  
 <br>  
 <p><b>Registration Form</></p>
-<form>  
+<form action="#" method="post">
   
 <label> Firstname </label>         
 <input type="text" name="firstname" size="15"/> <br> <br>  
